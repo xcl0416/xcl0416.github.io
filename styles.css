@@ -83,7 +83,7 @@ a:focus-visible {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 440px);
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 410px);
   gap: 48px;
   align-items: center;
   min-height: calc(100vh - 48px);
@@ -161,37 +161,63 @@ h1 {
 
 .hero-visual {
   position: relative;
-  min-height: 520px;
+  min-height: 460px;
 }
 
 .portrait {
   position: absolute;
   z-index: 2;
-  top: 18px;
-  right: 28px;
-  width: 184px;
-  height: 184px;
+  top: 34px;
+  left: 50%;
+  width: 210px;
+  height: 210px;
   object-fit: cover;
   border: 8px solid #fff;
   border-radius: 50%;
   box-shadow: var(--shadow);
+  transform: translateX(-50%);
 }
 
-.signal {
+.visual-card {
   position: absolute;
   right: 0;
-  bottom: 10px;
-  width: min(100%, 430px);
+  bottom: 28px;
+  left: 0;
+  padding: 152px 34px 34px;
   border-radius: 8px;
+  background: linear-gradient(180deg, #fff 0%, #f5f5f7 100%);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.visual-card p {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.visual-card strong {
+  display: block;
+  margin: 0 auto 12px;
+  max-width: 300px;
+  font-size: 30px;
+  line-height: 1.08;
+}
+
+.visual-card span {
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .hero-visual::before {
   content: "";
   position: absolute;
-  inset: 64px 24px 70px 0;
+  inset: 0 36px 92px 36px;
   border-radius: 8px;
-  background: var(--panel);
+  background: linear-gradient(135deg, #f5f5f7, #ffffff);
   border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
@@ -388,18 +414,13 @@ footer p {
   }
 
   .hero-visual {
-    min-height: 360px;
+    min-height: 390px;
   }
 
   .portrait {
-    width: 136px;
-    height: 136px;
-    top: 0;
-    right: 18px;
-  }
-
-  .signal {
-    width: min(100%, 520px);
+    width: 150px;
+    height: 150px;
+    top: 24px;
   }
 
   .about-grid,
@@ -438,6 +459,14 @@ footer p {
   }
 
   .hero-visual {
-    min-height: 300px;
+    min-height: 360px;
+  }
+
+  .visual-card {
+    padding: 130px 24px 28px;
+  }
+
+  .visual-card strong {
+    font-size: 26px;
   }
 }
