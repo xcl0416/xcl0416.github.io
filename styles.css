@@ -86,8 +86,8 @@ a:focus-visible {
   grid-template-columns: minmax(0, 1fr) minmax(300px, 410px);
   gap: 48px;
   align-items: center;
-  min-height: calc(100vh - 48px);
-  padding: 84px max(24px, calc((100vw - 1080px) / 2)) 74px;
+  min-height: 680px;
+  padding: 72px max(24px, calc((100vw - 1080px) / 2)) 72px;
   overflow: hidden;
 }
 
@@ -110,20 +110,20 @@ p {
 }
 
 h1 {
-  margin-bottom: 20px;
-  font-size: clamp(76px, 12vw, 152px);
+  margin-bottom: 18px;
+  font-size: clamp(56px, 7.6vw, 104px);
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 0.94;
+  line-height: 0.98;
 }
 
 .hero-subtitle {
-  max-width: 610px;
+  max-width: 520px;
   margin-bottom: 28px;
   color: var(--muted);
-  font-size: clamp(24px, 3.1vw, 36px);
+  font-size: clamp(25px, 3vw, 34px);
   font-weight: 600;
-  line-height: 1.14;
+  line-height: 1.16;
 }
 
 .hero-actions,
@@ -449,11 +449,11 @@ footer p {
   }
 
   h1 {
-    font-size: clamp(64px, 24vw, 92px);
+    font-size: clamp(48px, 16vw, 72px);
   }
 
   .hero-subtitle {
-    font-size: 23px;
+    font-size: 24px;
   }
 
   .band {
