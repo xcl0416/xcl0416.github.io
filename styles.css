@@ -180,6 +180,7 @@ h1 {
 
 .visual-card {
   position: absolute;
+  top: 132px;
   right: 0;
   bottom: 28px;
   left: 0;
@@ -215,7 +216,7 @@ h1 {
 .hero-visual::before {
   content: "";
   position: absolute;
-  inset: 0 36px 92px 36px;
+  inset: 0 36px 118px 36px;
   border-radius: 8px;
   background: linear-gradient(135deg, #f5f5f7, #ffffff);
   border: 1px solid rgba(0, 0, 0, 0.06);
@@ -423,6 +424,10 @@ footer p {
     top: 24px;
   }
 
+  .visual-card {
+    top: 104px;
+  }
+
   .about-grid,
   .project-grid,
   .publication-list article {
@@ -463,7 +468,8 @@ footer p {
   }
 
   .visual-card {
-    padding: 130px 24px 28px;
+    top: 96px;
+    padding: 116px 24px 28px;
   }
 
   .visual-card strong {
