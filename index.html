@@ -3,140 +3,132 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chenlu Xiang | 向晨路</title>
-  <meta name="description" content="Chenlu Xiang / 向晨路的个人主页，记录无线系统、移动计算、室内定位、WiFi CSI 与开源项目。">
+  <title>向晨路 | Chenlu Xiang</title>
+  <meta name="description" content="向晨路 Chenlu Xiang 的个人主页，记录无线系统、移动计算、室内定位、WiFi CSI 与博士期间研究工作。">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <header class="intro">
-      <div class="profile">
-        <img src="assets/chenlu-xiang.jpg" alt="Chenlu Xiang portrait">
-        <div>
-          <p class="kicker">Personal Homepage</p>
-          <h1>Chenlu Xiang <span>向晨路</span></h1>
-          <p class="summary">
-            Wireless systems, mobile computing, indoor localization, WiFi CSI,
-            and reproducible sensing experiments. My Google Scholar profile mainly
-            reflects work from my PhD period.
-          </p>
+  <header class="site-nav">
+    <a class="brand" href="#top">向晨路</a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-link" href="https://github.com/xcl0416">GitHub</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Chenlu Xiang</p>
+        <h1>向晨路</h1>
+        <p class="hero-subtitle">
+          Wireless systems, mobile computing, indoor localization, WiFi CSI,
+          and reproducible sensing experiments.
+        </p>
+        <div class="hero-actions" aria-label="Profile links">
+          <a class="button primary" href="https://scholar.google.com.hk/citations?user=ZJi__nwAAAAJ&amp;hl=zh-CN">Google Scholar</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/%E6%99%A8%E8%B7%AF-%E5%90%91-829977127/">LinkedIn</a>
         </div>
       </div>
-      <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#notes">Notes</a>
-        <a href="#contact">Contact</a>
-        <a href="https://github.com/xcl0416">GitHub</a>
-        <a href="https://scholar.google.com.hk/citations?user=ZJi__nwAAAAJ&amp;hl=zh-CN">Scholar</a>
-        <a href="https://www.linkedin.com/in/%E6%99%A8%E8%B7%AF-%E5%90%91-829977127/">LinkedIn</a>
-      </nav>
-    </header>
-
-    <section id="about">
-      <h2>About</h2>
-      <p>
-        I am 向晨路, also listed as Chenlu Xiang. During my PhD period at Shanghai
-        University, my research sat at the intersection of wireless systems and mobile
-        computing: robust indoor localization, WiFi-based sensing, CSI data processing,
-        transfer learning for fingerprints, and cooperative localization.
-      </p>
-      <div class="stats" aria-label="Google Scholar metrics">
-        <div><strong>297</strong><span>citations</span></div>
-        <div><strong>7</strong><span>h-index</span></div>
-        <div><strong>7</strong><span>i10-index</span></div>
+      <div class="hero-visual" aria-label="Profile and research visual">
+        <img class="portrait" src="assets/chenlu-xiang.jpg" alt="Chenlu Xiang portrait">
+        <img class="signal" src="assets/wifi-csi-figure.png" alt="WiFi CSI signal heatmaps">
       </div>
-      <figure class="research-image">
-        <img src="assets/wifi-csi-figure.png" alt="WiFi CSI signal heatmaps from a research experiment">
-        <figcaption>CSI signal visualization from my WiFi CSI experiments.</figcaption>
-      </figure>
     </section>
 
-    <section id="publications">
-      <h2>Selected Publications</h2>
-      <article>
-        <h3>6G: Connecting Everything by 1000 Times Price Reduction</h3>
-        <p>S. Zhang, C. Xiang, S. Xu. IEEE Open Journal of Vehicular Technology, 2020.</p>
-      </article>
-      <article>
-        <h3>Robust sub-meter level indoor localization with a single WiFi access point: Regression versus classification</h3>
-        <p>C. Xiang, S. Zhang, S. Xu, X. Chen, S. Cao, G. C. Alexandropoulos, V. K. N. Lau. IEEE Access, 2019.</p>
-      </article>
-      <article>
-        <h3>Self-Calibrating Indoor Localization with Crowdsourcing Fingerprints and Transfer Learning</h3>
-        <p>C. Xiang, S. Zhang, S. Xu, G. C. Alexandropoulos. IEEE ICC, 2021.</p>
-      </article>
-      <article>
-        <h3>Crowdsourcing-Based Indoor Localization with Knowledge-Aided Fingerprint Transfer</h3>
-        <p>C. Xiang, S. Zhang, S. Xu, G. Mao. IEEE Sensors Journal, 2022.</p>
-      </article>
-      <p class="more-link">
-        These publications are mainly from my PhD research period. Full list on
-        <a href="https://scholar.google.com.hk/citations?user=ZJi__nwAAAAJ&amp;hl=zh-CN">Google Scholar</a>.
+    <section class="band" id="about">
+      <div class="section-head">
+        <p class="eyebrow">About</p>
+        <h2>Research shaped by signals, systems, and experiments.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am 向晨路, also listed as Chenlu Xiang. During my PhD period at Shanghai
+          University, my work focused on wireless systems and mobile computing:
+          robust indoor localization, WiFi-based sensing, CSI data processing,
+          transfer learning for fingerprints, and cooperative localization.
+        </p>
+        <div class="stats" aria-label="Google Scholar metrics">
+          <div><strong>297</strong><span>citations</span></div>
+          <div><strong>7</strong><span>h-index</span></div>
+          <div><strong>7</strong><span>i10-index</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band light" id="publications">
+      <div class="section-head centered">
+        <p class="eyebrow">Selected Publications</p>
+        <h2>博士期间的代表性研究工作。</h2>
+      </div>
+      <div class="publication-list">
+        <article>
+          <span>2020</span>
+          <h3>6G: Connecting Everything by 1000 Times Price Reduction</h3>
+          <p>S. Zhang, C. Xiang, S. Xu. IEEE Open Journal of Vehicular Technology.</p>
+        </article>
+        <article>
+          <span>2019</span>
+          <h3>Robust sub-meter level indoor localization with a single WiFi access point</h3>
+          <p>C. Xiang, S. Zhang, S. Xu, X. Chen, S. Cao, G. C. Alexandropoulos, V. K. N. Lau. IEEE Access.</p>
+        </article>
+        <article>
+          <span>2021</span>
+          <h3>Self-Calibrating Indoor Localization with Crowdsourcing Fingerprints and Transfer Learning</h3>
+          <p>C. Xiang, S. Zhang, S. Xu, G. C. Alexandropoulos. IEEE ICC.</p>
+        </article>
+        <article>
+          <span>2022</span>
+          <h3>Crowdsourcing-Based Indoor Localization with Knowledge-Aided Fingerprint Transfer</h3>
+          <p>C. Xiang, S. Zhang, S. Xu, G. Mao. IEEE Sensors Journal.</p>
+        </article>
+      </div>
+      <p class="section-link">
+        <a href="https://scholar.google.com.hk/citations?user=ZJi__nwAAAAJ&amp;hl=zh-CN">View full publication list</a>
       </p>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>
-        Alongside papers, I keep research code and experiment notes in public repositories.
-        The common thread is practical wireless sensing: collecting CSI, parsing low-level
-        measurements, reproducing classic systems, and testing localization algorithms.
-      </p>
-      <article>
-        <h3><a href="https://github.com/xcl0416/Awesome-WiFi-CSI-Research">Awesome-WiFi-CSI-Research</a></h3>
-        <p>
-          A curated collection for WiFi CSI research, collecting papers, resources, and practical
-          references for wireless sensing work.
-        </p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/xcl0416/wifi-csi">wifi-csi</a></h3>
-        <p>
-          Python implementations and experiments around Widar2 and Widar3, including CSI parsing,
-          scaling, data conversion, and signal processing workflows.
-        </p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/xcl0416/CSI-Tool-Collect-CSI-Bidirectional">CSI-Tool-Collect-CSI-Bidirectional</a></h3>
-        <p>
-          Linux 802.11n CSI Tool utilities for bidirectional CSI acquisition in monitor mode,
-          designed for two-machine CSI collection experiments.
-        </p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/xcl0416/huawei_prru_loc">huawei_prru_loc</a></h3>
-        <p>
-          Localization experiments and scripts involving TDOA, Chan-Taylor methods, node selection,
-          and simulation scenarios.
-        </p>
-      </article>
+    <section class="band" id="projects">
+      <div class="section-head centered">
+        <p class="eyebrow">Projects</p>
+        <h2>Open code for wireless sensing and localization.</h2>
+      </div>
+      <div class="project-grid">
+        <article>
+          <h3><a href="https://github.com/xcl0416/Awesome-WiFi-CSI-Research">Awesome-WiFi-CSI-Research</a></h3>
+          <p>A curated collection of papers, resources, and practical references for WiFi CSI research.</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/xcl0416/wifi-csi">wifi-csi</a></h3>
+          <p>Python experiments around Widar2 and Widar3, including CSI parsing, scaling, and data conversion.</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/xcl0416/CSI-Tool-Collect-CSI-Bidirectional">CSI-Tool-Collect-CSI-Bidirectional</a></h3>
+          <p>Linux 802.11n CSI Tool utilities for bidirectional CSI acquisition in monitor mode.</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/xcl0416/huawei_prru_loc">huawei_prru_loc</a></h3>
+          <p>Localization scripts involving TDOA, Chan-Taylor methods, node selection, and simulation scenarios.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="notes">
-      <h2>Notes</h2>
-      <p>
-        I am gradually turning project notes into short posts. Topics I want to keep close at hand:
-        CSI data formats, Linux 802.11n CSI Tool workflows, Widar reproduction details, transfer
-        learning for fingerprints, and practical localization experiments.
-      </p>
+    <section class="contact-band" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Find me across research, code, and professional networks.</h2>
+      <div class="contact-links">
+        <a href="https://scholar.google.com.hk/citations?user=ZJi__nwAAAAJ&amp;hl=zh-CN">Google Scholar</a>
+        <a href="https://github.com/xcl0416">GitHub</a>
+        <a href="https://www.linkedin.com/in/%E6%99%A8%E8%B7%AF-%E5%90%91-829977127/">LinkedIn: 晨路-向-829977127</a>
+      </div>
     </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Find my research profile on
-        <a href="https://scholar.google.com.hk/citations?user=ZJi__nwAAAAJ&amp;hl=zh-CN">Google Scholar</a>,
-        professional profile on
-        <a href="https://www.linkedin.com/in/%E6%99%A8%E8%B7%AF-%E5%90%91-829977127/">LinkedIn: 晨路-向-829977127</a>,
-        and public code on <a href="https://github.com/xcl0416">GitHub</a>.
-      </p>
-    </section>
-
-    <footer>
-      <p>Last updated: May 2026. Built for GitHub Pages.</p>
-    </footer>
   </main>
+
+  <footer>
+    <p>Last updated: May 2026. Built for GitHub Pages.</p>
+  </footer>
 </body>
 </html>
